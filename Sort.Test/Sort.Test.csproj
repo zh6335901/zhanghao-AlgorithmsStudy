@@ -51,6 +51,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="6.HeapSort\HeapSortTest.cs" />
+    <Compile Include="7.QucikSort\QucikSortTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="6.HeapSort\HeapSorter.cs" />
     <Compile Include="6.HeapSort\PriorityQueue.cs" />
+    <Compile Include="7.QuickSort\QuickSorter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
