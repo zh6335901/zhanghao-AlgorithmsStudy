@@ -42,8 +42,10 @@
     <Compile Include="6.HeapSort\HeapSorter.cs" />
     <Compile Include="6.HeapSort\PriorityQueue.cs" />
     <Compile Include="7.QuickSort\QuickSorter.cs" />
+    <Compile Include="8.LinearTimeSort\LinearTimeSorter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

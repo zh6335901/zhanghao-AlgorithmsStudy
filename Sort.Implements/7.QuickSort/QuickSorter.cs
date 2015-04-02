@@ -26,10 +26,22 @@ namespace Sort.Implements
                 Sort(array, start, baseIndex - 1, comparer);
                 Sort(array, baseIndex + 1, end, comparer);
             }
+
+            //while (start < end)
+            //{
+            //    int baseIndex = Partition(array, start, end, comparer);
+            //    Sort(array, start, baseIndex - 1, comparer);
+            //    start = baseIndex + 1;
+            //}
         }
 
         private static int Partition<T>(T[] array, int start, int end, Func<T, T, bool> comparer)
         {
+            //随机选取划分序列的基准值
+            Random random = new Random(Guid.NewGuid().GetHashCode());
+            var randomNumber = random.Next(start, end);
+
+            Swap(ref array[randomNumber], ref array[end]);
             T baseValue = array[end];
             int baseIndex = start;
 
