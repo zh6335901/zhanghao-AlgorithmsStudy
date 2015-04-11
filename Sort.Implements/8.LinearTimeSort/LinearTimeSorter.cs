@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Sort.Implements
 {
-    public static class LinearTimeSorter
-    {
+	public static class LinearTimeSorter
+	{
 		/// <summary>
 		/// 计数排序,输入序列的元素element必须满足: 0 <= element <= max
 		/// </summary>
@@ -16,9 +16,9 @@ namespace Sort.Implements
 		/// <param name="asc">是否顺序排序</param>
 		/// <returns>计数排序后的数组</returns>
 		public static int[] CountingSort(int[] array, int max, bool asc = true)
-        {
+		{
 			return CountingSort(array, n => n, max, asc);
-        }
+		}
 
 		/// <summary>
 		/// 计数排序,输入序列的元素element必须满足: 0 <= element <= max
@@ -108,5 +108,5 @@ namespace Sort.Implements
 
 			return array;
 		}
-    }
+	}
 }
