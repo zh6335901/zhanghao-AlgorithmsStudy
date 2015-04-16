@@ -35,7 +35,7 @@ namespace Sort.Implements
             //}
         }
 
-        private static int Partition<T>(T[] array, int start, int end, Func<T, T, bool> comparer)
+        internal static int Partition<T>(T[] array, int start, int end, Func<T, T, bool> comparer)
         {
             //随机选取划分序列的基准值
             Random random = new Random(Guid.NewGuid().GetHashCode());
