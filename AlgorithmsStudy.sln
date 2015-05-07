@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22310.1
+VisualStudioVersion = 14.0.22609.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "排序和顺序统计学", "排序和顺序统计学", "{29B2E40F-6D11-4B51-A13C-2A4686A4118D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort.Implements", "Sort.Implements\Sort.Implements.csproj", "{2CA6F965-B2BB-41C4-9F36-AEE23D81FC14}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort.Test", "Sort.Test\Sort.Test.csproj", "{5E27FF2A-0152-4457-9306-37E34B618278}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "数据结构", "数据结构", "{62933B86-A27A-45DF-8C02-87EEA22BA769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.Implements", "DataStructures.Implements\DataStructures.Implements.csproj", "{FD4454D1-FDA3-40BC-8DF2-5B0A6BFACDF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,10 @@ Global
 		{5E27FF2A-0152-4457-9306-37E34B618278}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E27FF2A-0152-4457-9306-37E34B618278}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E27FF2A-0152-4457-9306-37E34B618278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4454D1-FDA3-40BC-8DF2-5B0A6BFACDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4454D1-FDA3-40BC-8DF2-5B0A6BFACDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4454D1-FDA3-40BC-8DF2-5B0A6BFACDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4454D1-FDA3-40BC-8DF2-5B0A6BFACDF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2CA6F965-B2BB-41C4-9F36-AEE23D81FC14} = {29B2E40F-6D11-4B51-A13C-2A4686A4118D}
 		{5E27FF2A-0152-4457-9306-37E34B618278} = {29B2E40F-6D11-4B51-A13C-2A4686A4118D}
+		{FD4454D1-FDA3-40BC-8DF2-5B0A6BFACDF3} = {62933B86-A27A-45DF-8C02-87EEA22BA769}
 	EndGlobalSection
 EndGlobal

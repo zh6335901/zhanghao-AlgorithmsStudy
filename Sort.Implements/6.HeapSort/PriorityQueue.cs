@@ -20,9 +20,9 @@ namespace Sort.Implements
         /// <param name="comparer">队列元素的优先级比较器，当第一个元素的优先级高于第二个元素时返回true</param>
         public PriorityQueue(int capacity, Func<T, T, bool> comparer)
         {
-            if (capacity <= 0)
+            if (capacity < 0)
             {
-                throw new InvalidOperationException("优先队列的初始容量必须大于0");
+                throw new InvalidOperationException("优先队列的初始容量必须大于等于0");
             }
 
             this.heap = new T[capacity];
@@ -115,7 +115,7 @@ namespace Sort.Implements
         {
             if (Count == heap.Length)
             {
-                EnsureCapacity(Count);
+                EnsureCapacity(Count == 0 ? 4 : Count);
             }
 
             heap[Count++] = key;
