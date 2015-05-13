@@ -50,8 +50,15 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="10.Base\QueueTest.cs" />
+    <Compile Include="10.Base\StackTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataStructures.Implements\DataStructures.Implements.csproj">
+      <Project>{fd4454d1-fda3-40bc-8df2-5b0a6bfacdf3}</Project>
+      <Name>DataStructures.Implements</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

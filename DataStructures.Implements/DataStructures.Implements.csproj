@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="10.Base\Queue.cs" />
     <Compile Include="10.Base\Stack.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

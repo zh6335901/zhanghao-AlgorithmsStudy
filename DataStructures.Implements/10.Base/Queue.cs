@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures.Implements._10.Base
+namespace DataStructures.Implements
 {
     public class Queue<T> : IEnumerable<T>
     {
@@ -58,9 +58,9 @@ namespace DataStructures.Implements._10.Base
                 endPos = count;
             }
 
-            count++;
             array[(startPos + count) % array.Length] = item;
             endPos = ((startPos + count) % array.Length) + 1;
+            count++;
         }
 
         public T Dequeue()
